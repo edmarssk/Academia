@@ -15,9 +15,7 @@ namespace Academia.Infra.CrossCutting.MvcFilters
             if (filterContext.Exception != null)
                 filterContext.Controller.TempData["erro"] = filterContext.Exception.Message;
             
-            //teste
-
-
+            //teste para subir no git
         }
         public override void OnResultExecuted(ResultExecutedContext filterContext)
         {
