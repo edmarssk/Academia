@@ -68,13 +68,9 @@
     <Compile Include="EntityConfig\PlanoConfiguration.cs" />
     <Compile Include="Interface\IContextManager.cs" />
     <Compile Include="Interface\IUnitOfWork.cs" />
-    <Compile Include="Migrations\201809061358310_InicialMigration.cs" />
-    <Compile Include="Migrations\201809061358310_InicialMigration.Designer.cs">
-      <DependentUpon>201809061358310_InicialMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201809061402099_SegundaMigration.cs" />
-    <Compile Include="Migrations\201809061402099_SegundaMigration.Designer.cs">
-      <DependentUpon>201809061402099_SegundaMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201910200335180_NewMigration.cs" />
+    <Compile Include="Migrations\201910200335180_NewMigration.Designer.cs">
+      <DependentUpon>201910200335180_NewMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -96,11 +92,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201809061358310_InicialMigration.resx">
-      <DependentUpon>201809061358310_InicialMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201809061402099_SegundaMigration.resx">
-      <DependentUpon>201809061402099_SegundaMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201910200335180_NewMigration.resx">
+      <DependentUpon>201910200335180_NewMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

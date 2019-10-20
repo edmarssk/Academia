@@ -3,7 +3,7 @@ namespace Academia.Infra.Data.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class InicialMigration : DbMigration
+    public partial class NewMigration : DbMigration
     {
         public override void Up()
         {
@@ -21,6 +21,7 @@ namespace Academia.Infra.Data.Migrations
                         DtNascimento = c.DateTime(nullable: false),
                         DtCadastro = c.DateTime(nullable: false),
                         Ativo = c.Boolean(nullable: false),
+                        Mae = c.String(maxLength: 100, unicode: false),
                         PlanoId = c.Int(nullable: false),
                     })
                 .PrimaryKey(t => t.ClienteId);

@@ -28,6 +28,7 @@ namespace Academia.Mvc.Controllers
         // GET: Cliente
         public ActionResult Index()
         {
+            ViewBag.Message = "Aplicação padrão.";
             return View(_clienteAppService.BuscarTodos());
         }
 
