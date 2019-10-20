@@ -17,6 +17,7 @@ namespace Academia.Infra.CrossCutting.MvcFilters
             
             //teste
 
+
         }
         public override void OnResultExecuted(ResultExecutedContext filterContext)
         {
